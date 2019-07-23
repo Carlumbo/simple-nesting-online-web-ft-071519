@@ -14,9 +14,10 @@ def hopper
           :known_for => "Unix",
           :languages => ["C"]
         }
+        programmer_hash[:grace_hopper][:known_for] = "FORTRAN"
      }
-programmer_hash[:grace_hopper][:known_for] = "FORTRAN"
 
+programmer_hash
 end
 
 def alan_kay_is_known_for
